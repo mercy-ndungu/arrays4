@@ -1,7 +1,7 @@
 fun main(){
     var y=myFun(arrayOf(3,4,5,6))
     println(y)
-    var x = namba(arrayOf("Kenya", 36.2, 5.5, false  ))
+    var x = numeral(arrayOf("Kenya", 36.2, 5.5, false  ))
     println(x)
     var z = mySentence(arrayOf('f', 'a', 'e', 'b', 'i', 'c', 'o', 'u', 'z', 'x'))
     println(z)
@@ -13,7 +13,7 @@ fun myFun(number:Array<Int>):Int{
     }
     return digit
 }
-fun namba(tally:Array<Any>):Double{
+fun numeral(tally:Array<Any>):Double{
     var int = 0.0
     tally.forEach{unit->
         if(unit is Double || unit is Float){
